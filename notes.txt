@@ -1,0 +1,21 @@
+    
+USER NAMES
+Super user:
+    username : admin
+    password : admin
+    authtoken : c34d375be45a139e2bf08a28a2299ab0c606bb14
+
+Manager:
+    username : manager
+    password : passForManager
+    authtoken: fbfbf8ee893d576ee9e12fa13bf986744697f36e
+
+Delivery Crew:
+    username : delevary_man
+    password : passForMan
+    authtoken  : 070924652e3c10c50c14ffdb8d2efc3df3988e2c
+
+Users:
+    username : test
+    password : passForTest
+    authtoken  : 4b32d1223bb9863d3ba8e1c52d1207ca6bc87e0c
