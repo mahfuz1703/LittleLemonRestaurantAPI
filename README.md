@@ -59,7 +59,7 @@ This API makes it possible end-users to perform certain tasks. It has the follow
 
 # API endpoints
 
-## /api/auth/users
+## /api/users
 
     -GET method: 
         -from Anonomous:
@@ -69,7 +69,7 @@ This API makes it possible end-users to perform certain tasks. It has the follow
         -from Superuser:
             Retrieves all Users information
 
-## /api/auth/users/
+## /api/users/
 
     -POST method:
         Allows everyone to register an account when supplied with the data:
@@ -84,7 +84,7 @@ This API makes it possible end-users to perform certain tasks. It has the follow
             username
             password 
 
-## /api/auth/users/me
+## /api/users/users/me
 
     -GET method:
         displays user information based on token
@@ -127,7 +127,7 @@ This API makes it possible end-users to perform certain tasks. It has the follow
         from Superusers:
             Deletes the given {menuitemId}
 
-## /api/groups/managers/users
+## /api/groups/manager/users
 
     -GET method:
         -from Managers and Superusers:
@@ -137,7 +137,7 @@ This API makes it possible end-users to perform certain tasks. It has the follow
             Adds a user to the managers group given:
                 username
 
-## /api/groups/managers/users/{userId}
+## /api/groups/manager/users/{userId}
 
     -DELETE method:
         from Managers and Superusers:
